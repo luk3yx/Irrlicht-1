@@ -416,7 +416,7 @@ the engine will no longer read .jpeg images. */
 	This is only used when _IRR_COMPILE_WITH_LIBJPEG_ is defined.
 	NOTE: You will also have to modify the Makefile or project files when changing this default.
 	*/
-#define _IRR_USE_NON_SYSTEM_JPEG_LIB_
+//#define _IRR_USE_NON_SYSTEM_JPEG_LIB_
 #ifdef NO_IRR_USE_NON_SYSTEM_JPEG_LIB_
 #undef _IRR_USE_NON_SYSTEM_JPEG_LIB_
 #endif
@@ -434,7 +434,7 @@ the engine will no longer read .png images. */
 	This is only used when _IRR_COMPILE_WITH_LIBPNG_ is defined.
 	NOTE: You will also have to modify the Makefile or project files when changing this default.
 	*/
-#define _IRR_USE_NON_SYSTEM_LIB_PNG_
+//#define _IRR_USE_NON_SYSTEM_LIB_PNG_
 #ifdef NO_IRR_USE_NON_SYSTEM_LIB_PNG_
 #undef _IRR_USE_NON_SYSTEM_LIB_PNG_
 #endif
